@@ -1,0 +1,83 @@
+	h1{
+		color:black;
+	}
+
+
+	.header{
+		background-color:rgb(161, 226, 208);
+		font-size:25px;
+		font: arial;
+		padding:20px;	
+		display:flex;
+		justify-content:center;
+	}
+
+	
+
+	.grid{
+		background-color:peachpuff;
+		padding:50px;
+		display:flex;
+		flex-wrap:wrap;
+        justify-content:space-evenly;
+	}
+
+	.instruction{
+		background-color:peachpuff;
+		display:flex;
+		
+	}
+
+	.footer{
+		display:flex;
+		justify-content:flex-end;
+	}
+
+	.grid img{
+		border: 2px solid #000000;
+        border-radius: 50px;
+	}
+
+	
+	a:link{
+		color:black;
+	}
+
+	a:visited{
+		color:purple;
+	}
+
+	.origame{
+		border-radius:20px;
+		background-color: #ffffff;
+        padding: 30px;
+		margin: 25px;
+		width: 310px;
+		font-family:fantasy;
+	}
+
+	.menu{
+		display: flex;
+		justify-content:space-between;
+		background-color:#000000;
+        padding: 15px;
+		font-size: 20px;
+		font-family: sans-serif;
+		font-weight: 400;
+		color: white;
+	}
+
+	body{
+		margin: 5px;
+		margin-right: 5px;
+		background-color: peachpuff;
+	}
+
+	.origami:hover p{
+		opacity: 1;
+	}
+	
+	.origami:hover img{
+		opacity: 0.32;
+	} 
+	
